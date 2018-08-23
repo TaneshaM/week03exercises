@@ -1,0 +1,153 @@
+/* in css the elements are called selectors */
+
+
+html{
+	height: 500px;
+	width: 1000px;
+	margin: auto;
+}
+
+
+*{
+	font-family: 'Asul', sans-serif;
+}
+
+
+
+
+/*nav bar*/
+
+
+nav{
+	background-color: tomato;
+	height: 100px;
+
+	
+}
+
+ul{
+	margin: 0;
+	text-align: right;
+	padding: 20px;
+	padding-right: 60px;
+
+}
+
+
+li{ 
+	display: inline;
+	padding-right: 15px;
+	text-decoration: none;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+
+
+a{  
+	color:#f8f3ed;
+	text-decoration: none;
+
+}
+
+input{
+	height: 40px;
+	width: 250px;
+	font-size: 30px;
+}
+
+.fa-search{
+	color:grey;
+	position: relative;
+	bottom: 215px;
+	left:  590px;
+}
+
+button{
+	padding: 10px 30px;
+}
+
+
+
+.cado{
+	color: forestgreen;
+	font-weight: bold;
+}
+
+.cadolink{
+	display: left;
+	font-size: 25px;
+	text-transform: uppercase;
+
+}
+
+/*main section*/
+
+section{
+
+	background-color: #f8f3ed;
+	padding-bottom: 20px;
+	
+}
+
+p{
+	color: forestgreen;
+	font-size: 20px;
+}
+
+span{
+	color: tomato;
+}
+
+img{
+	padding-bottom: 15px;
+	padding-top: 50px;
+	height: 200px;
+	width: 300px;
+
+}
+
+input{
+	box-shadow: 5px 5px grey;
+	position: absolute;
+	top: 130px;
+	right: 250px;
+
+
+}
+	
+
+
+.quote{
+	background-color: forestgreen;
+	color: #f8f3ed;
+}
+
+ .studies{
+	background-color: tomato;
+	color: #f8f3ed;
+
+}
+
+.div{
+      position: absolute;
+      top: 175px;
+      right: 200px;
+   
+}
+
+
+/*footer section*/
+footer{
+  background-color: forestgreen;
+  height: 80px;
+}
+
+   footer>div{
+   	padding: 20px;
+   	text-align: center;
+   }
+
+   i{
+   	color: #f8f3ed;
+   	padding-right: 15px;
+   }
